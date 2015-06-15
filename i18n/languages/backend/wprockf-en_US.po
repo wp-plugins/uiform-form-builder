@@ -1,0 +1,1518 @@
+# Copyright (C) 2015 Abid Omar
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rocket form\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/plugin\n"
+"POT-Creation-Date: 2015-03-24 18:08-0500\n"
+"PO-Revision-Date: 2015-03-24 18:08-0500\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <info@softdiscover.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\pruebas\\installtest\\wordpressjack"
+"\\wp-content\\plugins\\uiform_form_builder\n"
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/helpers/styles-font-menu/plugin.php:47
+msgid "Styles Font Menu requires WordPress 3.4 or newer."
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/helpers/styles-font-menu/plugin.php:48
+msgid "Please update."
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/controllers/uiform-fb-controller-frontend.php:56
+msgid "Success! your form was submitted</div>"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/controllers/uiform-fb-controller-frontend.php:59
+msgid "warning! Form was not submitted</div>"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/controllers/uiform-fb-controller-frontend.php:269
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:10
+msgid "New form request"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/controllers/uiform-fb-controller-frontend.php:330
+msgid "Success! your form was submitted"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/controllers/uiform-fb-controller-frontend.php:332
+msgid "warning! data not submitted"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/fields/formhtml_captcha.php:95
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:870
+msgid "CAPTCHA Code"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/fields/formhtml_fileupload.php:68
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:444
+msgid "Select file"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/fields/formhtml_fileupload.php:69
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/fields/formhtml_imageupload.php:69
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:445
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:489
+msgid "Change"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/fields/formhtml_fileupload.php:72
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/fields/formhtml_imageupload.php:71
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:192
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:447
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:492
+msgid "Remove"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/fields/formhtml_imageupload.php:68
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:488
+msgid "Select image"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/fields/formhtml_submitbtn.php:64
+msgid "Sending"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:33
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:44
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:266
+msgid "Tab title"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:48
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/formhtml_tabfooter.php:10
+msgid "Previous"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:51
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/formhtml_tabfooter.php:16
+msgid "Next"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:99
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:67
+msgid "Settings"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:172
+msgid "Field name"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:174
+msgid ""
+"This is important to identify the field on reports and conditional logic"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:176
+msgid "Type field name"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:182
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:29
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:100
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records.php:25
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records_getdatatable.php:11
+msgid "Options"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:185
+msgid "Delete field selected"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:186
+msgid "Are you sure?"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:187
+msgid "Cancel"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:188
+msgid "Yes"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:211
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:122
+msgid "Label"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:214
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:216
+msgid "Input"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:217
+msgid "Help Block"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:220
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:122
+msgid "Validators"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:223
+msgid "Images"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:226
+msgid "C.Logic"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:229
+msgid "Misc"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:359
+msgid "You need to save the form before seeing the preview"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:360
+msgid "Preview for desktops"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:361
+msgid "Preview for tablets"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:362
+msgid "Preview for smartphone"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:363
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_main.php:33
+msgid "Import form"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:364
+msgid "The import has failed. press the accept button"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:383
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1393
+msgid "Close"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:387
+msgid "Desktop"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:391
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:46
+msgid "Tablet"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:395
+msgid "Smartphone"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:421
+msgid "Load form"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/create_form.php:446
+msgid "Accept"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/export_form.php:20
+msgid "Code to export"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/export_form.php:23
+msgid "the exporting code is used for backuping your custom form"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:7
+msgid "Main Fields"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:8
+msgid "More"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:18
+msgid "Standard Fields"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:27
+msgid "Text Box"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:35
+msgid "Text Area"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:44
+msgid "Radio Button"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:52
+msgid "Check Box"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:60
+msgid "Select List"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:68
+msgid "Multiple Select"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:76
+msgid "Submit Button"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:84
+msgid "Spinner"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:92
+msgid "Slider"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:100
+msgid "Range"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:113
+msgid "Grid System"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:122
+msgid "1 Col"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:130
+msgid "2 Cols"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:138
+msgid "3 Cols"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:146
+msgid "4 Cols"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:154
+msgid "6 Cols"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:167
+msgid "Aditional Fields"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:176
+msgid "Star rating"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:184
+msgid "ReCaptcha"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:192
+msgid "Custom Html"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:201
+msgid "Hidden Input"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:209
+msgid "Password"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:218
+msgid "Captcha"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:231
+msgid "Layout Elements"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:245
+msgid "Divider"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:254
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:395
+msgid "Heading H1"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:266
+msgid "Upload Fields"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:275
+msgid "File Upload"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:283
+msgid "Image Upload"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:301
+msgid "Picker Fields"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:310
+msgid "Date Picker"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:318
+msgid "Color Picker"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:326
+msgid "Time Picker"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:334
+msgid "Date and Time"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:347
+msgid "Prepend/Append Fields - Text Box"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:356
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:10
+msgid "Prepend"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:365
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:113
+msgid "Append"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:374
+msgid "Prepend/Append"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:386
+msgid "Headings"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:403
+msgid "Heading H2"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:412
+msgid "Heading H3"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:421
+msgid "Heading H4"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:430
+msgid "Heading H5"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/fields_available.php:439
+msgid "Heading H6"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:4
+msgid "A boilerplate widget"
+msgstr "que quiereee"
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:13
+msgid "List forms."
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:25
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records.php:22
+msgid "Name Form"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:26
+msgid "Shortcode"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:27
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records.php:23
+msgid "Created"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:28
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records.php:24
+msgid "Status"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:44
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records.php:39
+msgid "Active"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:51
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records.php:46
+msgid "Inactive"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:62
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:55
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:277
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records.php:58
+msgid "Delete"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/list_forms.php:73
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records.php:69
+msgid "there is not forms. Add new one"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/preview_fields.php:53
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:150
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:223
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:285
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:347
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:387
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:429
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:473
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:519
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:555
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:592
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:632
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:672
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:713
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:752
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:792
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:830
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:897
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:933
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:976
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1018
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1059
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1105
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1140
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1188
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1222
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1255
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1288
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1321
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1354
+msgid "Textbox label"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/preview_fields.php:55
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:153
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:226
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:288
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:350
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:390
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:432
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:476
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:522
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:558
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:595
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:635
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:675
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:716
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:755
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:795
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:833
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:900
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:936
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:979
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1021
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1062
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1108
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1143
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1191
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1225
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1258
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1291
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1324
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1357
+msgid "Textbox sublabel"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_helpblock.php:13
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:21
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:166
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:202
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:264
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:326
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:366
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:408
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:452
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:498
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:534
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:571
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:611
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:651
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:692
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:731
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:771
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:809
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:876
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:912
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:955
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:998
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1039
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1075
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1120
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1156
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1202
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1236
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1269
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1302
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1335
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1368
+msgid "Help block text"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_helpblock.php:29
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:36
+msgid "Show help block"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_helpblock.php:43
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:77
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:44
+msgid "Text Font"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_helpblock.php:71
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:85
+msgid "Help block position"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_helpblock.php:83
+msgid "At bottom"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_helpblock.php:94
+msgid "At Top"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_helpblock.php:105
+msgid "Tooltip"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_helpblock.php:116
+msgid "Pop up"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:32
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:58
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:82
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:135
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:161
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:185
+msgid "Add"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:99
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:202
+msgid "Clean"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:223
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_11.php:10
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_8.php:10
+msgid "Text"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:279
+msgid "Place holder"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:285
+msgid "Type place holder for input"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:296
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:475
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:588
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_11.php:63
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:55
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:23
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:64
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:121
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:324
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:82
+msgid "Color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:310
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_11.php:77
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:69
+msgid "Font family"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:340
+msgid "Input value alignment"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:351
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:392
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:422
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:486
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:365
+msgid "Left"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:361
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:402
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:494
+msgid "Center"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:371
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:412
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:444
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:502
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:343
+msgid "Right"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:381
+msgid "Button alignment"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:426
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_skin.php:8
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:33
+msgid "Background"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:433
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_skin.php:20
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:40
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:86
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:153
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:221
+msgid "Background color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:445
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:51
+msgid "Type"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:458
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:646
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:65
+msgid "Solid"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:467
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:74
+msgid "Gradient"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:482
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:502
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:520
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:595
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:614
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:30
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:71
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:127
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:330
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_skin.php:27
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:88
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:107
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:125
+msgid "Pick the color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:494
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:101
+msgid "Start color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:512
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:118
+msgid "End color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:539
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:575
+msgid "Border"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:546
+msgid "Border radius"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:607
+msgid "Color (focus)"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:634
+msgid "border style"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:655
+msgid "Dotted"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_1.php:663
+msgid "Border width"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_11.php:106
+msgid "Divider bar Color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:9
+msgid "Settings label option"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:110
+msgid "Add new option"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:113
+msgid "Remove all options"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:119
+msgid "Selected"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:135
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:477
+msgid "Block alignment"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:146
+msgid "Block"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:156
+msgid "Inline"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:185
+msgid "Type label"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:203
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_2.php:212
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:240
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:249
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:258
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:302
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:311
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:320
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:359
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:360
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:361
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:400
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:402
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:403
+msgid "option"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_3.php:10
+msgid "Custom html content"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_4.php:11
+msgid "Minimum"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_4.php:21
+msgid "Maximum"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_4.php:37
+msgid "Default value"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_4.php:49
+msgid "Step"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_4.php:63
+msgid "Range 1"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_4.php:73
+msgid "Range 2"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_5.php:11
+msgid "Public key"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_5.php:20
+msgid "Secret key"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_5.php:34
+msgid "Theme"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_5.php:44
+msgid "Light"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_5.php:53
+msgid "Dark"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:11
+msgid "Custom text color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:52
+msgid "Custom Background color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:92
+msgid "Custom Behind lines"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:104
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:138
+msgid "Lines"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:127
+msgid "Custom front lines"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_6.php:160
+msgid "Distortion"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:10
+msgid "Language"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:14
+msgid "English"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:15
+msgid "Spanish"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:16
+msgid "French"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:17
+msgid "Italian"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:18
+msgid "Japanese"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:19
+msgid "Portuguese"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:20
+msgid "Russian"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:21
+msgid "Chinese"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:27
+msgid "Format"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_7.php:31
+msgid "Default"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_9.php:10
+msgid "Text star 1"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_9.php:22
+msgid "Text star 2"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_9.php:34
+msgid "Text star 3"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_9.php:46
+msgid "Text star 4"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_9.php:58
+msgid "Text star 5"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_input_9.php:70
+msgid "Not rated text"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:10
+msgid "Label text"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:63
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:270
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:374
+msgid "Text Color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:109
+msgid "Text Shadow"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:141
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:343
+msgid "x"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:157
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:360
+msgid "y"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:174
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:377
+msgid "blur"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:203
+msgid "Sub label"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:210
+msgid "Sublabel text"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:284
+msgid "Text font"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:312
+msgid "Text shadow"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:404
+msgid "Text Block"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:410
+msgid "Block position"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:433
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:332
+msgid "Top"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:455
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:354
+msgid "Bottom"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_label.php:464
+msgid "Show Block"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:58
+msgid "Help block alignment (temp - delete)"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:129
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:27
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:124
+msgid "Required"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:137
+msgid "Allow whitespace"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:146
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:10
+msgid "Add validator"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:210
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:124
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:164
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:203
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:242
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:281
+msgid "Validator configuration: "
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:210
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:101
+msgid "Less than"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:214
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:136
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:176
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:215
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:254
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:293
+msgid "Default Message"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:222
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:148
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:188
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:227
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:266
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:305
+msgid "Custom Error Message"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:233
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:320
+msgid "Alert position"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:267
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:415
+msgid "Set required icon"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:275
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:427
+msgid "Choose required icon"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:285
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:443
+msgid "Required icon position"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:292
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:454
+msgid "Before label"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_misc.php:298
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:464
+msgid "After label"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:43
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:164
+msgid "Letters"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:55
+msgid "Letter & Numbers"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:68
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:242
+msgid "Only numbers"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:79
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:281
+msgid "Email"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:89
+msgid "Greater than"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:95
+msgid "Identical"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:107
+msgid "Length"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:116
+msgid "Validator: "
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:130
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:170
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:209
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:248
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:287
+msgid "Translate error message "
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:139
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:142
+msgid "this is required"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:179
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:182
+msgid "Required only letters"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:203
+msgid "Letters and Numbers"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:218
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:221
+msgid "Required only Letters and Numbers"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:257
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:260
+msgid "Required only numbers"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:296
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:299
+msgid "Required a valid mail"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:389
+msgid "Background Color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_field_validate.php:408
+msgid "Required icon"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:8
+msgid "Enable Conditional logic"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:36
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records.php:55
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records_getdatatable.php:25
+msgid "Show"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:37
+msgid "Hide"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:39
+msgid "this field if"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:44
+msgid "All"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:45
+msgid "Any"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:47
+msgid "of the following rule match"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:57
+msgid "Add new conditional Logic"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:60
+msgid "Remove all"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:95
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:101
+msgid "is"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:96
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:102
+msgid "is not"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:103
+msgid "greater than"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_clogic.php:104
+msgid "less than"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:14
+msgid "You are receiving a new form request"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:22
+msgid "Form information"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:23
+msgid "URL"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:24
+msgid "Form"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:36
+msgid "Subject mail"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:38
+msgid "it is the title of the message. do not leave blank"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:43
+msgid "Here goes your subject mail"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:45
+msgid "Type subject"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:52
+msgid "Recipient mail"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:54
+msgid ""
+"This is the recipient mail. if you leave it blank, admin mail will be taken"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:61
+msgid "Type email address"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:70
+msgid "this mail will receive a copy of the email"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:76
+msgid "Type CC mail"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:85
+msgid ""
+"this mail will receive a copy of the email without letting the others notice "
+"it"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:91
+msgid "Type BCC mail"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_email.php:99
+msgid "Email Template"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_main.php:9
+msgid "Form title"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_main.php:13
+msgid "Type form title"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_main.php:20
+msgid "Ajax mode when submitting form"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_main.php:36
+msgid "Import the backup form"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_samplebuttons.php:122
+msgid "Text font size"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_samplebuttons.php:124
+msgid "Select font size"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_skin.php:39
+msgid "Background image"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_skin.php:52
+msgid "Update Image"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:8
+msgid "Success! Form was sent successfully."
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_submission.php:17
+msgid "Success Message"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:8
+msgid "Enable wizard forms"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:24
+msgid "Tabs management"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:31
+msgid "Add new"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:48
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:270
+msgid "Type tab title"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:71
+msgid "Skin tab"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:78
+msgid "Active Mode"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:103
+msgid "Title color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:121
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:189
+msgid "Number text color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:145
+msgid "Inactive mode"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:171
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:239
+msgid "Text color"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/settings_form_wizard.php:213
+msgid "Tab container "
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:186
+msgid "Textarea label"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:189
+msgid "Textarea sublabel"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1198
+msgid "Type your heading H1 here"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1232
+msgid "Type your heading H2 here"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1265
+msgid "Type your heading H3 here"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1298
+msgid "Type your heading H4 here"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1331
+msgid "Type your heading H5 here"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/forms/templates_fields.php:1364
+msgid "Type your heading H6 here"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/custom_report.php:20
+msgid "Custom report"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/custom_report.php:23
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/view_charts.php:23
+msgid "Select your custom fields to be shown on list report"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/custom_report.php:40
+msgid "Save Changes"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records.php:13
+msgid "List Records."
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/list_records_getdatatable.php:10
+msgid "Date"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/modules/formbuilder/views/records/view_charts.php:20
+msgid "View chart"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/captions.php:5
+msgid "Loading"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:21
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:21
+msgid "Forms"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:23
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:23
+msgid "New"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:26
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:26
+msgid "List forms"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:41
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:53
+msgid "Records"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:44
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:56
+msgid "List all Forms"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:48
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:60
+msgid "List by Form"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:51
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:63
+msgid "Custom Report"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:56
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:68
+msgid "Import"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:58
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:70
+msgid "Export"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header.php:61
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:73
+msgid "Charts"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:41
+msgid "Preview"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:44
+msgid "desktop"
+msgstr ""
+
+#: C:\wamp\www\pruebas\installtest\wordpressjack\wp-content\plugins\uiform_form_builder/views/header_editform.php:48
+msgid "smartphone"
+msgstr ""
