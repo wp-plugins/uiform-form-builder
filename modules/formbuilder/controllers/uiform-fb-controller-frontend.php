@@ -165,8 +165,7 @@ class Uiform_Fb_Controller_Frontend extends Uiform_Base_Module {
         $form_fields = (isset($_POST['uiform_fields']) && $_POST['uiform_fields']) ? array_map(array('Uiform_Form_Helper', 'sanitizeRecursive'), $_POST['uiform_fields']) : array();
         $form_f_tmp = array();
         $attachments = array();  // initialize attachment array 
-        $upload_dir = wp_upload_dir();  // look for this function in wordpress documentation at codex 
-        $upload_dir = $upload_dir['path'];
+        
         if(!empty($form_fields)){
            foreach ($form_fields as $key => $value) {
                 if (is_array($value)) {
@@ -180,12 +179,16 @@ class Uiform_Fb_Controller_Frontend extends Uiform_Base_Module {
                     if ((string) $value === 'uifm_fileinput') {
                         if (isset($_FILES['uiform_fields']['name'][$key])
                                 && !empty($_FILES['uiform_fields']['name'][$key])) {
+                            $upload_data = wp_upload_dir();  // look for this function in wordpress documentation at codex 
+                            $upload_dir = $upload_data['path'];
+                            $upload_dirurl = $upload_data['baseurl'];
+                            $upload_subdir = $upload_data['subdir'];
                             $rename = "file_" . md5(uniqid($_FILES['uiform_fields']['name'][$key], true));
                             $ext = substr($_FILES['uiform_fields']['name'][$key], strrpos($_FILES['uiform_fields']['name'][$key], '.') + 1);
                             $_FILES['uiform_fields']['name'][$key] = $rename . "." . strtolower($ext);
 
-                            $form_f_tmp[$key] = $_FILES['uiform_fields']['name'][$key];
-                            $form_fields[$key] = $_FILES['uiform_fields']['name'][$key];
+                            $form_f_tmp[$key] = $upload_dirurl.$upload_subdir.'/'.$_FILES['uiform_fields']['name'][$key];
+                            $form_fields[$key] = $upload_dirurl.$upload_subdir.'/'.$_FILES['uiform_fields']['name'][$key];
 
                             //attachment
 
