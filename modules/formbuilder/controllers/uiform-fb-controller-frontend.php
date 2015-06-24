@@ -37,6 +37,7 @@ class Uiform_Fb_Controller_Frontend extends Uiform_Base_Module {
     private $model_formrecords = "";
     private $model_fields = "";
     private $wpdb = "";
+    private $flag_submitted = 0;
     protected $modules;
 
     const PREFIX = 'wprofmr_';
@@ -72,10 +73,9 @@ class Uiform_Fb_Controller_Frontend extends Uiform_Base_Module {
     public function ajax_submit_ajaxmode() {
         $resp = array();
         $this->process_form();
+       
 
-
-
-        if (!empty($_POST['_rockfm_submitted']) && intval($_POST['_rockfm_submitted']) > 0) {
+        if (isset($this->flag_submitted) && intval($this->flag_submitted) > 0) {
             $resp['success'] = 1;
             $resp['show_message'] = (isset($_POST['_rockfm_onsubm_smsg'])) ? Uiform_Form_Helper::base64url_decode(Uiform_Form_Helper::sanitizeInput_html($_POST['_rockfm_onsubm_smsg'])) :
                     '<div class="rockfm-alert rockfm-alert-danger"><i class="fa fa-exclamation-triangle"></i> ' . __('Success! your form was submitted', 'frocket_front') . '</div>';
@@ -83,7 +83,6 @@ class Uiform_Fb_Controller_Frontend extends Uiform_Base_Module {
             $resp['success'] = 0;
             $resp['show_message'] = '<div class="rockfm-alert rockfm-alert-danger"><i class="fa fa-exclamation-triangle"></i> ' . __('warning! Form was not submitted', 'frocket_front') . '</div>';
         }
-
         $resp['show_message'] = Uiform_Form_Helper::encodeHex($resp['show_message']);
 
         //return data to ajax callback
@@ -222,13 +221,15 @@ class Uiform_Fb_Controller_Frontend extends Uiform_Base_Module {
         $data['fbh_user_agent'] = $agent;
         $data['fbh_page'] = $_SERVER['REQUEST_URI'];
         $data['fbh_referer'] = $referer;
+        
         $this->wpdb->insert($this->model_formrecords->table, $data);
         $idActivate = $this->wpdb->insert_id;
+        $json=array();
         $json['status'] = 'created';
         $json['id'] = $idActivate;
-        //store id record
-        $_POST['_rockfm_submitted'] = $idActivate;
-
+        
+        $this->flag_submitted = $idActivate;
+        
         //get data from form
         $form_data = $this->formsmodel->getFormById_2($form_id);
         $form_data_onsubm = json_decode($form_data->fmb_data2, true);
@@ -354,7 +355,7 @@ class Uiform_Fb_Controller_Frontend extends Uiform_Base_Module {
                 && absint($_POST['_rockfm_form_id']) === intval($id)
         ) {
 
-            if (!empty($_POST['_rockfm_submitted']) && intval($_POST['_rockfm_submitted']) > 0) {
+            if (isset($this->flag_submitted) && intval($this->flag_submitted) > 0) {
                 echo (isset($_POST['_rockfm_onsubm_smsg'])) ? Uiform_Form_Helper::base64url_decode(Uiform_Form_Helper::sanitizeInput_html($_POST['_rockfm_onsubm_smsg'])) : __('Success! your form was submitted', 'frocket_front');
             } else {
                 echo __('warning! Form was not submitted', 'frocket_front');
