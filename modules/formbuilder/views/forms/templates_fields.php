@@ -27,7 +27,7 @@ if (!defined('ABSPATH')) {exit('No direct script access allowed');}
                         <span class="uiform-field-qopt-block"><i class="fa fa-arrows"></i><span><?php echo __('Block','FRocket_admin'); ?></span></span></a>
                     <a href="javascript:void(0);" onclick="javascript:rocketform.fieldQuickOptions_EditField(this);" title="<?php echo __('Edit','FRocket_admin'); ?>" class="uiform-fields-qopt-move">
                         <span class="uiform-field-qopt-block"><i class="fa fa-pencil"></i></span></a>    
-                     <a href="javascript:void(0);" onclick="javascript:rocketform.fieldQuickOptions_DuplicateField(this);" title="<?php echo __('Copy','FRocket_admin'); ?>" class="uiform-fields-qopt-copy">
+                     <a href="javascript:void(0);" onclick="javascript:rocketform.fieldQuickOptions_DuplicateField(this);" title="<?php echo __('Duplicate','FRocket_admin'); ?>" class="uiform-fields-qopt-copy">
                         <span class="uiform-field-qopt-block"><i class="fa fa-files-o"></i></span></a>   
                     <a href="javascript:void(0);" onclick="javascript:rocketform.fieldsetting_deleteFieldFromPreview(this);" title="<?php echo __('Remove','FRocket_admin'); ?>" class="uiform-fields-qopt-remove">
                         <span class="uiform-field-qopt-block"><i class="fa fa-trash-o"></i></span></a>    

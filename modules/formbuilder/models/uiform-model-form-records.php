@@ -76,10 +76,11 @@ class Uiform_Model_Form_Records {
         }
         $temp[] = "r.fbh_id";
         $temp[] = "r.created_date";
-        $sql.=implode(',', $temp) . ' from %s r';
-        $sql.=" join %s frm on frm.fmb_id=r.form_fmb_id
-            where r.flag_status>0 and r.form_fmb_id=%s";
+        $sql.=implode(',', $temp) . ' from %1$s r';
+        $sql.=' join %2$s frm on frm.fmb_id=r.form_fmb_id
+            where r.flag_status>0 and r.form_fmb_id=%3$s'; 
         $query = sprintf($sql,$this->table,$this->tbform,$form_id);
+       
         return $this->wpdb->get_results($query);
     }
 

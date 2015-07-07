@@ -130,7 +130,10 @@ class Uiform_Form_Helper {
      */
     public static function sanitizeFnamestring($string) {
         $string = preg_replace('/\s+/', '', $string);
-        $string = strtolower($string);
+        $string= preg_replace("/'/i", '', $string);
+        $string= preg_replace('/"/i', '', $string);
+        $string= preg_replace('/\PL/u', '', $string);
+        $string= strtolower($string);
         return $string;
     }
 
@@ -239,7 +242,12 @@ class Uiform_Form_Helper {
             $temp .= '%' . bin2hex($input[$i]);
         return $temp;
     }
-
+    
+    public static function check_field_length($data,$length) {
+        return (strlen($data) > intval($length))? substr($data, 0, intval($length)):'';
+    }
+    
+    
 }
 
 ?>
