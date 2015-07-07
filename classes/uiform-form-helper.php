@@ -132,7 +132,7 @@ class Uiform_Form_Helper {
         $string = preg_replace('/\s+/', '', $string);
         $string= preg_replace("/'/i", '', $string);
         $string= preg_replace('/"/i', '', $string);
-        $string= preg_replace('/\PL/u', '', $string);
+        $string= preg_replace('/[^\pL\pN]+/', '', $string);
         $string= strtolower($string);
         return $string;
     }

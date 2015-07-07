@@ -3,7 +3,7 @@
  * Plugin Name: Uiform Form Builder Express
  * Plugin URI: http://www.uiform.com/wordpress-form-builder
  * Description: The Uiform form builder makes you build forms in few steps.
- * Version: 1.3.3
+ * Version: 1.3.4
  * Author: SoftDiscover
  * Author URI: http://www.softdiscover.com
  */
@@ -29,7 +29,7 @@ if (!class_exists('UiformFormbuilder_Express')) {
          * @var string
          * @since 1.0
          */
-        public $version = '1.3.3';
+        public $version = '1.3.4';
 
         /**
          * The minimal required version of WordPress for this plug-in to function correctly.

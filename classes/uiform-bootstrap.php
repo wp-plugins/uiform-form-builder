@@ -230,35 +230,11 @@ JS;
     public function loadMenu() {
 
         add_menu_page('Uiform - Wordpress Form Builder Express', 'Uiform Express', "edit_posts", "uiform_form_builder", array(&$this, "route_page"), UIFORM_FORMS_URL . "/assets/backend/image/rockfm-logo-ico.png");
-        add_submenu_page("uiform_form_builder", __('List by form', 'FRocket_admin'), __('Records', 'FRocket_admin'), 'manage_options', "rocket_forms_record", array(&$this, 'load_data_option'));
-        add_submenu_page("uiform_form_builder", __('Import', 'FRocket_admin'), __('Import', 'FRocket_admin'), 'manage_options', "rocket_forms_import", array(&$this, 'load_data_option'));
-        add_submenu_page("uiform_form_builder", __('Export', 'FRocket_admin'), __('Export', 'FRocket_admin'), 'manage_options', "rocket_forms_export", array(&$this, 'load_data_option'));
-        add_submenu_page("uiform_form_builder", __('Charts', 'FRocket_admin'), __('Charts', 'FRocket_admin'), 'manage_options', "rocket_forms_charts", array(&$this, 'load_data_option'));
-        add_submenu_page("uiform_form_builder", __('Settings', 'FRocket_admin'), __('Settings', 'FRocket_admin'), 'manage_options', "rocket_forms_settings", array(&$this, 'load_data_option'));
-    }
-
-    public function load_data_option() {
-        switch (Uiform_Form_Helper::sanitizeInput($_GET['page'])) {
-            case 'rocket_forms_record':
-                $redirect = UIFORM_ADMINPATH . '?page=uiform_form_builder&mod=formbuilder&controller=records&action=info_records_byforms';
-                break;
-            case 'rocket_forms_import':
-                $redirect = UIFORM_ADMINPATH . '?page=uiform_form_builder&mod=formbuilder&controller=forms&action=create_uiform&opt=import';
-                break;
-            case 'rocket_forms_export':
-                $redirect = UIFORM_ADMINPATH . '?page=uiform_form_builder&mod=formbuilder&controller=forms&action=export_form';
-                break;
-            case 'rocket_forms_charts':
-                $redirect = UIFORM_ADMINPATH . '?page=uiform_form_builder&mod=formbuilder&controller=records&action=view_charts';
-                break;
-            case 'rocket_forms_settings':
-                $redirect = UIFORM_ADMINPATH . '?page=uiform_form_builder&mod=formbuilder&controller=settings&action=view_settings';
-                break;
-            default:
-                $redirect = UIFORM_ADMINPATH . '?page=uiform_form_builder';
-        }
-        wp_redirect($redirect);
-        die();
+        add_submenu_page("uiform_form_builder", __('List by form', 'FRocket_admin'), __('Records', 'FRocket_admin'), 'manage_options', '?page=uiform_form_builder&mod=formbuilder&controller=records&action=info_records_byforms');
+        add_submenu_page("uiform_form_builder", __('Import', 'FRocket_admin'), __('Import', 'FRocket_admin'), 'manage_options', "?page=uiform_form_builder&mod=formbuilder&controller=forms&action=create_uiform&opt=import");
+        add_submenu_page("uiform_form_builder", __('Export', 'FRocket_admin'), __('Export', 'FRocket_admin'), 'manage_options', "?page=uiform_form_builder&mod=formbuilder&controller=forms&action=export_form");
+        add_submenu_page("uiform_form_builder", __('Charts', 'FRocket_admin'), __('Charts', 'FRocket_admin'), 'manage_options', "?page=uiform_form_builder&mod=formbuilder&controller=records&action=view_charts");
+        add_submenu_page("uiform_form_builder", __('Settings', 'FRocket_admin'), __('Settings', 'FRocket_admin'), 'manage_options', "?page=uiform_form_builder&mod=formbuilder&controller=settings&action=view_settings");
     }
 
     public function route_page() {
