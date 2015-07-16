@@ -56,9 +56,9 @@ class Uiform_Bootstrap extends Uiform_Base_Module {
         add_filter('rockfm_languages_directory', array(&$this, 'rockfm_lang_dir_filter'));
         add_filter('rockfm_languages_domain', array(&$this, 'rockfm_lang_domain_filter'));
         add_filter('plugin_locale', array(&$this, 'rockfm_lang_locale_filter'));
-        
+
         //load admin
-        if (is_admin() && $this->is_uiformpage()) {
+        if (is_admin() && Uiform_Form_Helper::is_uiform_page()) {
             //admin resources
             add_action('admin_enqueue_scripts', array(&$this, 'load_admin_resources'));
             $this->loadBackendControllers();
@@ -91,7 +91,8 @@ class Uiform_Bootstrap extends Uiform_Base_Module {
 
         //add_action( 'init',                  array( $this, 'upgrade' ), 11 );
     }
-    private function is_uiformpage(){
+    public function is_uiformpage(){
+       
         $vget_page=(isset($_GET['page']))?Uiform_Form_Helper::sanitizeInput($_GET['page']):'';
         $vpost_page=(isset($_POST['page']))?Uiform_Form_Helper::sanitizeInput($_POST['page']):'';
         if(( $vget_page === 'uiform_form_builder' ) || ( $vpost_page === 'uiform_form_builder' )) {
@@ -99,9 +100,11 @@ class Uiform_Bootstrap extends Uiform_Base_Module {
         }else{
             return false;
         }
+        
+       
     }
     public function rockfm_lang_dir_filter($lang_dir) {
-        if (is_admin() && $this->is_uiformpage()) {
+        if (is_admin() && Uiform_Form_Helper::is_uiform_page()) {
             $lang_dir = UIFORM_FORMS_DIR . '/i18n/languages/backend/';
         } else {
             //load frontend
@@ -121,7 +124,7 @@ class Uiform_Bootstrap extends Uiform_Base_Module {
     }
 
     public function rockfm_lang_domain_filter($domain) {
-        if (is_admin() && $this->is_uiformpage()) {
+        if (is_admin() && Uiform_Form_Helper::is_uiform_page()) {
             $domain = 'FRocket_admin';
         } else {
             //load frontend
@@ -277,7 +280,7 @@ JS;
 
 
 
-        if (is_admin()) {
+        if (is_admin() && Uiform_Form_Helper::is_uiform_page()) {
             /* load css */
             //loas ui
             wp_enqueue_style('jquery-ui');
@@ -385,11 +388,13 @@ JS;
             wp_enqueue_script('rockefform-bootbox', UIFORM_FORMS_URL . '/assets/backend/js/bootbox/bootbox.js');
             //intro
             wp_enqueue_script('rockefform-introjs', UIFORM_FORMS_URL . '/assets/backend/js/introjs/intro.js');
+            //lzstring
+            wp_enqueue_script('rockefform-lzstring', UIFORM_FORMS_URL . '/assets/backend/js/lzstring/lz-string.min.js');
             //load recaptcha api
             wp_enqueue_script(self::PREFIX . 'uifm_js_recaptcha');
             //load rocket form
             wp_enqueue_script(self::PREFIX . 'admin');
-            wp_localize_script(self::PREFIX . 'admin', 'uiform_vars', array('url_admin' => admin_url(), 'url_plugin' => UIFORM_FORMS_URL,'assetsurl' => UIFORM_FORMS_URL . "/assets"));
+            wp_localize_script(self::PREFIX . 'admin', 'uiform_vars', array('url_admin' => admin_url(), 'url_plugin' => UIFORM_FORMS_URL,'app_version' => UIFORM_VERSION,'url_assets' => UIFORM_FORMS_URL . "/assets"));
             wp_enqueue_script(self::PREFIX . 'rockfm_js_global_frontend');
             wp_localize_script(self::PREFIX . 'rockfm_js_global_frontend', 'rockfm_vars', array('ajaxurl' => admin_url('admin-ajax.php'), 'imagesurl' => UIFORM_FORMS_URL . "/assets/frontend/images"));
         }

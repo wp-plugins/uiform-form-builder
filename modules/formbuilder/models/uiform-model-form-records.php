@@ -69,23 +69,30 @@ class Uiform_Model_Form_Records {
     }
 
     function getDetailRecord($names,$form_id) {
-        $sql = 'select ';
-        $temp = array();
-        foreach ($names as $value) {
-            $temp[] = "extractvalue(fbh_data_xml,'/params/child::" . $value->fmf_uniqueid . "') AS " . Uiform_Form_Helper::sanitizeFnamestring($value->fieldname);
+        if(intval($form_id)>0){
+            $sql = 'select ';
+            $temp = array();
+            foreach ($names as $value) {
+                $temp[] = "extractvalue(fbh_data_xml,'/params/child::" . $value->fmf_uniqueid . "') AS " . Uiform_Form_Helper::sanitizeFnamestring($value->fieldname);
+            }
+            $temp[] = "r.fbh_id";
+            $temp[] = "r.created_date";
+            $sql.=implode(',', $temp) . ' from %1$s r';
+            $sql.=' join %2$s frm on frm.fmb_id=r.form_fmb_id
+                where r.flag_status>0 and r.form_fmb_id=%3$s'; 
+            $query = sprintf($sql,$this->table,$this->tbform,$form_id);
+
+            return $this->wpdb->get_results($query);
+        }else{
+            return array();
         }
-        $temp[] = "r.fbh_id";
-        $temp[] = "r.created_date";
-        $sql.=implode(',', $temp) . ' from %1$s r';
-        $sql.=' join %2$s frm on frm.fmb_id=r.form_fmb_id
-            where r.flag_status>0 and r.form_fmb_id=%3$s'; 
-        $query = sprintf($sql,$this->table,$this->tbform,$form_id);
-       
-        return $this->wpdb->get_results($query);
+        
     }
 
     function getNameFieldEnabledByForm($id_field) {
-        $query = sprintf('select f.fmf_uniqueid, coalesce(NULLIF(f.fmf_fieldname,""),CONCAT(t.fby_name,f.fmf_id)) as fieldname 
+        
+        if(intval($id_field)>0){
+            $query = sprintf('select f.fmf_uniqueid, coalesce(NULLIF(f.fmf_fieldname,""),CONCAT(t.fby_name,f.fmf_id)) as fieldname 
         from %s f 
         join %s t on f.type_fby_id=t.fby_id 
         join %s fm on fm.fmb_id=f.form_fmb_id
@@ -94,10 +101,16 @@ class Uiform_Model_Form_Records {
         fm.fmb_id=%s', $this->tbformfields, $this->tbformtype, $this->tbform, $id_field);
 
         return $this->wpdb->get_results($query);
+        }else{
+            return array();
+        }
+        
+        
     }
 
     function getAllNameFieldEnabledByForm($id_field) {
-        $query = sprintf('select f.fmf_uniqueid, coalesce(NULLIF(f.fmf_fieldname,""),CONCAT(t.fby_name,f.fmf_id)) as fieldname 
+        if(intval($id_field)>0){
+            $query = sprintf('select f.fmf_uniqueid, coalesce(NULLIF(f.fmf_fieldname,""),CONCAT(t.fby_name,f.fmf_id)) as fieldname 
         from %s f 
         join %s t on f.type_fby_id=t.fby_id 
         join %s fm on fm.fmb_id=f.form_fmb_id
@@ -105,6 +118,11 @@ class Uiform_Model_Form_Records {
         fm.fmb_id=%s', $this->tbformfields, $this->tbformtype, $this->tbform, $id_field);
 
         return $this->wpdb->get_results($query);
+        }else{
+            return array();
+        }
+        
+        
     }
     function getFormDataById($id_rec){
         $query = sprintf('select  f.fmb_name

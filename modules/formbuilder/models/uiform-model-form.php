@@ -59,9 +59,10 @@ class Uiform_Model_Form {
             ', $this->table);
 
         if ($per_page != '' || $segment != '') {
+            $segment=(!empty($segment))?$segment:0;
             $query.=sprintf(' limit %s,%s', $segment, $per_page);
         }
-
+        
         return $this->wpdb->get_results($query);
     }
 

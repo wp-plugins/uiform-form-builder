@@ -150,4 +150,20 @@ if (!defined('ABSPATH')) {exit('No direct script access allowed');}
                        ><span class="fa fa-question-circle"></span></a>
         </div>
     </div>
+    <div class="space10"></div>
+    <div class="row">
+        <div class="col-sm-6">
+            <label for=""><?php echo __('Regenerate form','FRocket_admin'); ?></label>
+        </div>
+        <div class="col-sm-6">
+            <a href="javascript:void(0);"
+               onclick="javascript:rocketform.regenerateform();"
+               class="btn btn-success"
+               ><?php echo __('Regenerate','FRocket_admin'); ?></a>
+            <a href="javascript:void(0);"
+                       data-toggle="tooltip" data-placement="top" 
+                       data-original-title="<?php echo __('Regenerate form','FRocket_admin'); ?>"
+                       ><span class="fa fa-question-circle"></span></a>
+        </div>
+    </div>
 </div>

@@ -226,11 +226,11 @@ class Uiform_Form_Helper {
         return $output;
     }
 
-    function base64url_encode($s) {
+    public static function base64url_encode($s) {
         return str_replace(array('+', '/'), array('-', '_'), base64_encode($s));
     }
 
-    function base64url_decode($s) {
+    public static function base64url_decode($s) {
         return base64_decode(str_replace(array('-', '_'), array('+', '/'), $s));
     }
 
@@ -247,6 +247,28 @@ class Uiform_Form_Helper {
         return (strlen($data) > intval($length))? substr($data, 0, intval($length)):'';
     }
     
+    public static function sql_quote( $value )
+    {
+        if( get_magic_quotes_gpc() )
+        {
+            $value = stripslashes( $value );
+        }
+        
+        $value = addslashes( $value );
+        
+        return $value;
+    }
+    
+    public static function is_uiform_page()
+    {
+        $vget_page=(isset($_GET['page']))?Uiform_Form_Helper::sanitizeInput($_GET['page']):'';
+        $vpost_page=(isset($_POST['page']))?Uiform_Form_Helper::sanitizeInput($_POST['page']):'';
+        if(( $vget_page === 'uiform_form_builder' ) || ( $vpost_page === 'uiform_form_builder' )) {
+            return true;
+        }else{
+            return false;
+        }
+    }
     
 }
 

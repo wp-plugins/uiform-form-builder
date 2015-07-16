@@ -14,7 +14,8 @@ var options={animation:false,html:true,placement:cus_placement,content:$(element
 field_pop.popover('destroy').popover(this.validate_applyPopOverOpt(el)).popover('show');}
 break;case 8:case 9:case 10:case 11:case 12:case 13:case 23:case 24:case 25:case 26:switch(parseInt(field_type)){case 8:if(el.find(".rockfm-input2-wrap input[type='radio']:checked").length>0){field_value='1';}else{field_value='';}
 field_pop=el.find('.rockfm-input2-wrap');break;case 9:if(el.find(".rockfm-input2-wrap input[type='checkbox']:checked").length>0){field_value='1';}else{field_value='';}
-field_pop=el.find('.rockfm-input2-wrap');break;case 10:case 11:if(el.find(".rockfm-input2-wrap select option:selected").length>0){field_value='1';}else{field_value='';}
+field_pop=el.find('.rockfm-input2-wrap');break;case 10:if(el.find(".rockfm-input2-wrap select option:selected").val().length>0){field_value='1';}else{field_value='';}
+field_pop=el.find('.rockfm-input2-wrap');break;case 11:if(el.find(".rockfm-input2-wrap select option:selected").length>0){field_value='1';}else{field_value='';}
 field_pop=el.find('.rockfm-input2-wrap');break;case 12:if(el.find(".rockfm-fileupload-wrap .fileinput-filename").html().length>0){field_value='1';}else{field_value='';}
 field_pop=el.find('.rockfm-fileupload-wrap');break;case 13:if(el.find(".rockfm-fileupload-wrap .fileinput-preview").html().length>0){field_value='1';}else{field_value='';}
 field_pop=el.find('.rockfm-fileupload-wrap .fileinput-preview');break;case 23:field_value=el.find('.rockfm-colorpicker-wrap input').val();field_pop=el.find('.rockfm-colorpicker-wrap');break;case 24:field_value=el.find('.rockfm-input7-datepic input').val();field_pop=el.find('.rockfm-input7-datepic');break;case 25:field_value=el.find('.rockfm-input7-timepic input').val();field_pop=el.find('.rockfm-input7-timepic');break;case 26:field_value=el.find('.rockfm-input7-datetimepic input').val();field_pop=el.find('.rockfm-input7-datetimepic');break;}
