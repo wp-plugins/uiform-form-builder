@@ -15,7 +15,7 @@
 if (!defined('ABSPATH')) {
     exit('No direct script access allowed');
 }
-if (class_exists('Uiform_Fb_Controller_Forms')) {
+if (class_exists('Uiform_Fb_Controller_Fields')) {
     return;
 }
 
