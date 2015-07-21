@@ -16,7 +16,7 @@ Uiform Form Builder is a real-time drag and drop form builder editor with live p
 
 https://www.youtube.com/watch?v=sbK7qkoOZoc&w=532&rel=0
 
-### Features:
+### Features (Express version):
 * real-time drag and drop or click to add form elements to form
 * skin customizer with live preview
 * amazing form elements
